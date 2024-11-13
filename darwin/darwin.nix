@@ -24,6 +24,9 @@
   programs = {
     gnupg.agent.enable = true;
     zsh.enable = true;  # default shell on catalina
+    fish.enable = true;
+    direnv.enable = true;
+    man.enable = true;
   };
 
   # Used for backwards compatibility, please read the changelog before changing.
