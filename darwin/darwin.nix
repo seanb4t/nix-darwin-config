@@ -68,6 +68,9 @@
       active_color = "0xAAB279A7";
       inactive_color = "0x33867A74";
     };
+    tailscale = {
+      enable = true;
+    };
   };
 
   homebrew = {
