@@ -19,6 +19,7 @@
       amber
       devenv
       markdown-oxide
+      mas
       nixd
       ollama
       ripgrep

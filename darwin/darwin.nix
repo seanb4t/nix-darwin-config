@@ -78,18 +78,28 @@
 
     casks = [
       "1password"
+      "betterdisplay"
       "brave-browser"
+      "cleanmymac"
+      "discord"
       "fantastical"
       "hammerspoon"
+      "jetbrains-toolbox"
       "karabiner-elements"
       "keycastr"
       "obsidian"
+      "orbstack"
       "raycast"
       "soundsource"
+      "spotify"
+      "visual-studio-code"
       "wezterm"
+      "zoom"
     ];
 
     masApps = {
+      "Tailscale" = 1475387142;
+      "Windows App" = 1295203466; # Remote Desktop
       #"Drafts" = 1435957248;
       #"Reeder" = 1529448980;
       #"Things" = 904280696;
