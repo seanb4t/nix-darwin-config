@@ -97,6 +97,8 @@
         autohide = true;
         orientation = "bottom";
         magnification = true;
+        tilesize = 16;
+        largesize = 96;
         #show-process-indicators = false;
         #show-recents = false;
         #static-only = true;
