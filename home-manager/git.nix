@@ -1,7 +1,7 @@
 {...}:
 {
   home.file = {
-    ".cvsignore".source = ../.config/git/.cvsignore;
+    ".gitignore".source = ../.config/git/.gitignore;
     ".gitconfig".source = ../.config/git/.gitconfig;
   };
 

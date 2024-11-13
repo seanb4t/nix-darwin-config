@@ -4,16 +4,10 @@
   added = green
   changed = yellow
   untracked = red
-[core]
-  excludesfile = "~/.cvsignore"
 [credential]
   helper = osxkeychain
 [rerere]
   enabled = true
-[browser "gitscm"]
-  cmd = /bin/sh -c 'open http://git-scm.com/docs/$(basename $1 .html)' --
-[help]
-  browser = gitscm
 [pull]
   ff = true
 [push]
@@ -24,8 +18,6 @@
   algorithm = histogram
 [merge]
   conflictstyle = zdiff3
-[url "git@github.com:"]
-  insteadOf = "https://github.com"
 [alias]
   st = status --short --branch
   co = checkout
