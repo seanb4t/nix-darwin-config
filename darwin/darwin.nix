@@ -133,4 +133,9 @@
       enableSudoTouchIdAuth = true;
     };
   };
+  networking = {
+    computerName = "denver";
+    hostName = "denver";
+    localHostName = "denver";
+  };
 }
