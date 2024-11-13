@@ -127,10 +127,10 @@
       enableKeyMapping = true;
       remapCapsLockToControl = true;
     };
-    security = {
-      pam = {
-        enableSudoTouchIdAuth = true;
-      };
+  };
+  security = {
+    pam = {
+      enableSudoTouchIdAuth = true;
     };
   };
 }
