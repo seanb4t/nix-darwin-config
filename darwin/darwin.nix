@@ -95,7 +95,8 @@
     defaults = {
       dock = {
         autohide = true;
-        #orientation = "left";
+        orientation = "bottom";
+        magnification = true;
         #show-process-indicators = false;
         #show-recents = false;
         #static-only = true;
