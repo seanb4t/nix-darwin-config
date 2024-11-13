@@ -109,6 +109,14 @@
         #FXEnableExtensionChangeWarning = false;
         ShowPathbar = true;
       };
+      loginwindow = {
+        SHOWFULLNAME = true;
+        GuestEnabled = false;
+      };
+      menuExtraClock = {
+        ShowAMPM = false;
+        Show24Hour = true;
+      };
       NSGlobalDomain = {
         #AppleKeyboardUIMode = 3;
         #"com.apple.keyboard.fnState" = true;
