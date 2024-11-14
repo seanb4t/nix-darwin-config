@@ -36,7 +36,6 @@
             nix.settings.trusted-users = [ user ];
           }
         ];
-        specialArgs = { inherit inputs; }
       };
   in
   {
