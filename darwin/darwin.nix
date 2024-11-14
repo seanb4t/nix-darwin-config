@@ -6,11 +6,17 @@
   environment.systemPackages =
     [
       pkgs.home-manager
+      pkgs.fish
     ];
 
   # Use a custom configuration.nix location.
   # $ darwin-rebuild switch -I darwin-config=$HOME/.config/nixpkgs/darwin/configuration.nix
   #environment.darwinConfig = "$HOME/Code/github.com/seanb4t/nix-config/darwin";
+
+  environment.shells = [
+    pkgs.fish
+    pkgs.zsh
+  ];
 
   # Auto upgrade nix package and the daemon service.
   nix = {

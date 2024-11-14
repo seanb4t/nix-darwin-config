@@ -28,11 +28,15 @@
             home-manager = {
               users.${user} = import ./home-manager;
               useGlobalPkgs = true;
+              useUserPackages = true;
             };
-            users.users.${user}.home = "/Users/${user}";
+            users.users.${user} = {
+              home = "/Users/${user}";            
+            };
             nix.settings.trusted-users = [ user ];
           }
         ];
+        specialArgs = { inherit inputs; }
       };
   in
   {
