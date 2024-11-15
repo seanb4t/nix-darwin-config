@@ -41,11 +41,13 @@ with pkgs; [
   nodejs
 
   # Text and terminal utilities
+  chezmoi
   htop
   hunspell
   iftop
   jetbrains-mono
   jq
+  restic
   ripgrep
   starship
   tree
